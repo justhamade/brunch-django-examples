@@ -11,6 +11,7 @@ class exports.TodoListView extends Backbone.View
 
   addAll: =>
     # TODO explain why this is working - see underscore source
+    @$el.find('#todos li').remove()
     app.todoList.each @addOne
 
   initialize: ->
