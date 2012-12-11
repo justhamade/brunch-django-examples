@@ -1,5 +1,6 @@
 class exports.Todo extends Backbone.Model
-  idAttribute: 'pk'
+  urlRoot: '/api/todos/'
+  idAttribute: 'id'
 
   defaults:
     content: 'Empty todo...'
