@@ -11,7 +11,7 @@ REST-API and data persistence.
 The credits for the original Todos application comes to
 [Jérôme Gravel-Niquet](http://jgn.me/).
 
-### Install and setup Django 1.3.1
+### Install and setup Django 1.4.1
 
 In a Python virtual environment:
 
@@ -19,7 +19,6 @@ In a Python virtual environment:
     
     cd todos-example
     python manage.py syncdb
-    python manage.py runserver
 
 ### Install and setup Brunch 1.0
 
@@ -42,5 +41,9 @@ dependencies to `node_modules` directory:
 And build the project with:
 
     brunch build
+
+Run the django developmen server in the todos-example folder
+
+    python manage.py runserver
 
 And you are good to go on http://127.0.0.1:8000
