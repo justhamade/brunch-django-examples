@@ -97,7 +97,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
 
     # external
-    'djangorestframework',
+    'rest_framework',
 
     # internal
     'todos',
